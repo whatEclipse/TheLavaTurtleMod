@@ -3,6 +3,10 @@ plugins {
     id 'net.neoforged.moddev'
 }
 
+repositories {
+    maven { url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }
+}
+
 neoForge {
     version = neoforge_version
     // Automatically enable neoforge AccessTransformers if the file exists
@@ -37,3 +41,7 @@ neoForge {
 }
 
 sourceSets.main.resources { srcDir 'src/generated/resources' }
+
+dependencies {
+    implementation "software.bernie.geckolib:geckolib-neoforge-1.21:4.5.5"
+}

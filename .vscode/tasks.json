@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "runClientFabric",
+            "type": "shell",
+            "command": "./gradlew :fabric:runClient",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        },
+        {
+            "label": "runClientNeoforge",
+            "type": "shell",
+            "command": "./gradlew :neoforge:runClient",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        }
+    ]
+}
