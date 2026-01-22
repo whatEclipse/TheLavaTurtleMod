@@ -3,7 +3,7 @@
   "configurations": [
     {
       "type": "java",
-      "name": "clientFabric",
+      "name": "Fabric Client (:fabric)",
       "request": "launch",
       "cwd": "${workspaceFolder}/fabric/runs/client",
       "console": "integratedTerminal",
@@ -16,11 +16,16 @@
     },
     {
       "type": "java",
-      "name": "clientNeoforge",
+      "name": "Fabric Server (:fabric)",
       "request": "launch",
-      "mainClass": "runClientNeoforge",
-      "preLaunchTask": "runClientNeoforge",
-      "projectName": "neoforge"
+      "cwd": "${workspaceFolder}/fabric/runs/server",
+      "console": "integratedTerminal",
+      "stopOnEntry": false,
+      "mainClass": "net.fabricmc.devlaunchinjector.Main",
+      "vmArgs": "-Dfabric.dli.config\u003dC:\\Users\\Daniele\\OneDrive\\Documenti\\Repositories\\LavaTurtleRepo\\TheLavaTurtleMod\\fabric\\.gradle\\loom-cache\\launch.cfg -Dfabric.dli.env\u003dserver -Dfabric.dli.main\u003dnet.fabricmc.loader.impl.launch.knot.KnotServer",
+      "args": "nogui nogui",
+      "env": {},
+      "projectName": "fabric"
     }
   ]
 }

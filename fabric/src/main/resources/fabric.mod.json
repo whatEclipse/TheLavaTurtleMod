@@ -17,6 +17,9 @@
   "entrypoints": {
     "main": [
       "net.whateclipse.lavaturtlemod.Lavaturtlemod"
+    ],
+    "client": [
+      "net.whateclipse.lavaturtlemod.client.LavaturtlemodClient"
     ]
   },
   "mixins": [
