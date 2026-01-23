@@ -33,6 +33,17 @@ public class LavaTurtleModel extends GeoModel<LavaTurtleEntity> {
         software.bernie.geckolib.cache.object.GeoBone leg2 = getAnimationProcessor().getBone("leg2");
         software.bernie.geckolib.cache.object.GeoBone leg3 = getAnimationProcessor().getBone("leg3");
         software.bernie.geckolib.cache.object.GeoBone eggbelly = getAnimationProcessor().getBone("eggbelly");
+        software.bernie.geckolib.cache.object.GeoBone bodyR1 = getAnimationProcessor().getBone("body_r1");
+
+        if (bodyR1 != null) {
+            // body_r1.setRotX((float) Math.toRadians(270));
+            // body_r1.setRotY((float) Math.toRadians(180));
+
+            // Move the shell down and forward to align with the head and legs
+            // Adjust these values if the gap is still visible
+            // bodyR1.setPosY(-15.5f);
+            // bodyR1.setPosZ(-10.0f);
+        }
 
         if (leg0 != null && leg1 != null && leg2 != null && leg3 != null) {
             float f0 = 0;

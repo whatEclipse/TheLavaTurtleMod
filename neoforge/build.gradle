@@ -4,6 +4,7 @@ plugins {
 }
 
 repositories {
+    mavenCentral()
     maven { url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }
 }
 
@@ -43,5 +44,5 @@ neoForge {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 dependencies {
-    implementation "software.bernie.geckolib:geckolib-neoforge-1.21:4.5.5"
+    implementation "software.bernie.geckolib:geckolib-neoforge-1.21.1:${geckolib_neoforge_version}"
 }

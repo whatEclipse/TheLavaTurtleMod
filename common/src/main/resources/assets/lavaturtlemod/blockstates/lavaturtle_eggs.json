@@ -1,0 +1,84 @@
+{
+    "multipart": [
+        {
+            "when": {
+                "eggs": 1
+            },
+            "apply": {
+                "model": "lavaturtlemod:block/lavaturtle_egg_1"
+            }
+        },
+        {
+            "when": {
+                "eggs": 2
+            },
+            "apply": {
+                "model": "lavaturtlemod:block/lavaturtle_egg_1"
+            }
+        },
+        {
+            "when": {
+                "eggs": 2
+            },
+            "apply": {
+                "model": "lavaturtlemod:block/lavaturtle_egg_2"
+            }
+        },
+        {
+            "when": {
+                "eggs": 3
+            },
+            "apply": {
+                "model": "lavaturtlemod:block/lavaturtle_egg_1"
+            }
+        },
+        {
+            "when": {
+                "eggs": 3
+            },
+            "apply": {
+                "model": "lavaturtlemod:block/lavaturtle_egg_2"
+            }
+        },
+        {
+            "when": {
+                "eggs": 3
+            },
+            "apply": {
+                "model": "lavaturtlemod:block/lavaturtle_egg_3"
+            }
+        },
+        {
+            "when": {
+                "eggs": 4
+            },
+            "apply": {
+                "model": "lavaturtlemod:block/lavaturtle_egg_1"
+            }
+        },
+        {
+            "when": {
+                "eggs": 4
+            },
+            "apply": {
+                "model": "lavaturtlemod:block/lavaturtle_egg_2"
+            }
+        },
+        {
+            "when": {
+                "eggs": 4
+            },
+            "apply": {
+                "model": "lavaturtlemod:block/lavaturtle_egg_3"
+            }
+        },
+        {
+            "when": {
+                "eggs": 4
+            },
+            "apply": {
+                "model": "lavaturtlemod:block/lavaturtle_egg_4"
+            }
+        }
+    ]
+}

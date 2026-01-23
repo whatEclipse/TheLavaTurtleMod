@@ -3,11 +3,9 @@
   "minVersion": "0.8",
   "package": "net.whateclipse.lavaturtlemod.mixin",
   "refmap": "${mod_id}.refmap.json",
-  "compatibilityLevel": "JAVA_18",
+  "compatibilityLevel": "JAVA_21",
   "mixins": [],
-  "client": [
-    "MixinMinecraft"
-  ],
+  "client": [],
   "server": [],
   "injectors": {
     "defaultRequire": 1
